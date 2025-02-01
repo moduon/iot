@@ -1,7 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+/.venv
+/.pytest_cache
+/.ruff_cache
 
 # C extensions
 *.so
@@ -20,12 +22,20 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+*.eggs
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Windows installers
+*.msi
+
+# Debian packages
+*.deb
+
+# Redhat packages
+*.rpm
+
+# MacOS packages
+*.dmg
+*.pkg
 
 # Installer logs
 pip-log.txt
