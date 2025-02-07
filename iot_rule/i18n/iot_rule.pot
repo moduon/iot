@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: iot_rule
+#. odoo-python
 #: code:addons/iot_rule/models/iot_rule.py:0
 #, python-format
 msgid "A recurssion was found"
@@ -190,6 +191,7 @@ msgid "Key must be unique"
 msgstr ""
 
 #. module: iot_rule
+#. odoo-python
 #: code:addons/iot_rule/wizards/iot_key_wizard.py:0
 #: code:addons/iot_rule/wizards/iot_key_wizard.py:0
 #, python-format
@@ -284,6 +286,7 @@ msgid "Not expired Keys"
 msgstr ""
 
 #. module: iot_rule
+#. odoo-python
 #: code:addons/iot_rule/models/iot_key.py:0
 #, python-format
 msgid "Only one key can be assigned to this model"
