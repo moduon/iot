@@ -70,19 +70,18 @@ msgstr "Creato il"
 
 #. module: iot_amqp_oca
 #: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__display_name
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_communication_system_action__display_name
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output__display_name
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output_action__display_name
 msgid "Display Name"
 msgstr "Nome visualizzato"
 
 #. module: iot_amqp_oca
+#. odoo-python
 #: code:addons/iot_amqp_oca/models/iot_device_output.py:0
 #, python-format
 msgid "Exchange is required"
 msgstr "Richiesta comunicazione"
 
 #. module: iot_amqp_oca
+#. odoo-python
 #: code:addons/iot_amqp_oca/models/iot_device_output.py:0
 #, python-format
 msgid "Host is required"
@@ -90,9 +89,6 @@ msgstr "Richiesto host"
 
 #. module: iot_amqp_oca
 #: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host__id
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_communication_system_action__id
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output__id
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output_action__id
 msgid "ID"
 msgstr "ID"
 
@@ -113,9 +109,6 @@ msgstr "Dispositivo IoT"
 
 #. module: iot_amqp_oca
 #: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_amqp_host____last_update
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_communication_system_action____last_update
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output____last_update
-#: model:ir.model.fields,field_description:iot_amqp_oca.field_iot_device_output_action____last_update
 msgid "Last Modified on"
 msgstr "Ultima modifica il"
 
@@ -135,6 +128,7 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: iot_amqp_oca
+#. odoo-python
 #: code:addons/iot_amqp_oca/models/iot_device_output.py:0
 #, python-format
 msgid "Routing Key is required"
