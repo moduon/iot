@@ -16,7 +16,7 @@ class TestEmployeeRfid(TransactionCase):
         self.employee.write({"rfid_card_code": "1235"})
         self.assertFalse(self.employee.iot_key_id)
         self.employee.generate_iot_key()
-        self.employee.refresh()
+        self.employee.invalidate_recordset()
         self.assertTrue(self.employee.iot_key_id)
         self.assertEqual(
             self.employee.iot_key_id.unique_virtual_key,
