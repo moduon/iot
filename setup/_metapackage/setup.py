@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo-addon-iot_amqp_oca>=16.0dev,<16.1dev',
         'odoo-addon-iot_input_oca>=16.0dev,<16.1dev',
+        'odoo-addon-iot_key_employee_rfid>=16.0dev,<16.1dev',
         'odoo-addon-iot_oca>=16.0dev,<16.1dev',
         'odoo-addon-iot_output_oca>=16.0dev,<16.1dev',
         'odoo-addon-iot_rule>=16.0dev,<16.1dev',
